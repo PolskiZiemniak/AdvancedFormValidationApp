@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AdvancedFormValidationApp</string>
+    <string name="hintImie">Imię</string>
+    <string name="hintNazwisko">Nazwisko</string>
+    <string name="hintEmail">E-mail</string>
+    <string name="hintPhone">Numer telefonu</string>
+    <string name="hintPass">Hasło</string>
+    <string name="hintConfirmPass">Potwierdź hasło</string>
+    <string name="submit">Wyślij</string>
+</resources>
