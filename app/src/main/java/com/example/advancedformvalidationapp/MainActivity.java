@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Proszę wprowadzić nazwisko", Toast.LENGTH_SHORT).show();
                 }else if(!android.util.Patterns.EMAIL_ADDRESS.matcher(emailTrim).matches()){
                     Toast.makeText(MainActivity.this, "Proszę wprowadzić poprawny E-mail", Toast.LENGTH_SHORT).show();
-                }else if(numerTrim.length() != 9){
-                    Toast.makeText(MainActivity.this, "Numer telefonu musi miec 9 liczb", Toast.LENGTH_SHORT).show();
+                }else if(numerTrim.length() < 9){
+                    Toast.makeText(MainActivity.this, "Numer telefonu musi miec przynajmniej 9 liczb", Toast.LENGTH_SHORT).show();
                 }else if(hasloTrim.length() < 6){
                     Toast.makeText(MainActivity.this, "Hasło msui miec przynajniej 6 znaków", Toast.LENGTH_SHORT).show();
                 }else if(!hasloTrim.equals(powtHasloTrim)){
